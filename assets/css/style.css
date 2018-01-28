@@ -1,0 +1,183 @@
+html, body{ /*creates height for sticky footer*/
+	min-height: 100%; 
+}
+
+body{ 
+	font-family: Tahoma, Verdana, san-serif;
+	font-size: small;
+	margin: 0px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	line-height: 18px;
+}
+
+.container{
+	min-height: 100%
+}
+
+#white_bar{
+	background: white;
+	border: 1px solid lightgray;
+}
+
+.main_logo{
+	width: 250px;
+	margin-top: 30px;
+	position: relative;
+	left: 20px;
+}
+
+#my_name{ /*splash page name*/
+	font-weight: normal;
+	font-family: 'Amatic SC', cursive;
+	font-size: 200%;
+}
+
+/*#index_content{
+	padding-bottom: 300px;
+}*/
+
+.top_nav{
+	margin: 0px 75px 0px 75px;
+}
+
+.mini_logo{
+	width: 50px;
+	margin: 5px 10px 0px 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .mini_logo {
+	display: none;
+    }
+}
+
+#selfie{ /*selfie on about page*/
+	float: left;
+	width: 50%;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	margin-right: 8px;
+	margin-left: 5px;
+}
+
+.main_content{
+	margin: 40px 10px 70px 10px;
+	overflow: auto;
+}
+
+.about_paragraphs{
+	padding: 0px 10px 0px 10px;
+}
+
+.spacer{
+	margin:20px;
+}
+.follow{ /*small icons for links to twitter, github, etc*/
+	width: 30px;
+	margin: 0px 8px 0px 8px;
+}
+
+.contact_header{
+	background: white
+}
+
+.contact{
+	margin: 50px 5px 50px 5px;
+	overflow: auto;
+	padding-bottom: 10px;
+}
+
+.footer_style{
+	border-top: .5px solid lightgrey;
+	height: 50px;
+	position: relative;
+	clear: both;
+	bottom: 0;
+}
+
+.footer_style_index{
+	border-top: .5px solid lightgrey;
+	height: 50px;
+	position: fixed;
+	clear: both;
+	bottom: 0;
+}
+
+.footer p{
+	padding-top: 10px
+}
+
+#footer_link{
+	margin-top: 20px;
+	color: black;
+}
+
+
+#portfolio_thumbnails{
+	margin-top: 20px;
+}
+
+.project_photos{ /*small portfolio project pictures*/
+	height: 150px;
+	width: 200px;
+	border: 2px solid black;
+	margin: 0px 20px 20px 20px;
+}
+
+#box_1{ /*my first website*/
+	position: relative;
+	background-image: url('../images/firstsite.png');
+	background-size: cover;
+}
+#box_2{ /*rpg game*/
+	position: relative;
+	background-image: url('../images/chrono_trigger_pixel_art.png');
+	background-size: cover;
+}
+
+#box_3{ /*countdown timer*/
+	position: relative;
+	background-image: url('../images/countdown.jpg');
+	background-size: cover;
+}
+
+#box_4{ /*debugging*/
+	position: relative;
+	background-image: url('../images/debugging.jpg');
+	background-size: cover;
+}
+
+#box_5{ /*mobile apps*/
+	position: relative;
+	background-image: url('../images/mobile.jpg');
+	background-size: cover;
+}
+
+#box_6{ /*group projects*/
+	position: relative;
+	background-image: url('../images/teamwork.jpg');
+	background-size: cover;
+}
+
+.project_spans{ /*title/caption on portfolio project pics*/
+	background: #708090;
+	text-align: center;
+	margin-top: 105px;
+	color: ghostwhite;
+	font-size: 150%;
+	padding: 8px 0px 8px 0px;
+	opacity: .9;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#contact_form{
+	padding-bottom: 30px;
+}
+
+#contact_header{
+	margin-bottom: 25px; 
+	text-align: center;
+}

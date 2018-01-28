@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+	<div id="container-fluid">
+		<div>
+			<nav class="navbar navbar-expand-md navbar-light" id="white_bar">
+			  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    		<span class="navbar-toggler-icon"></span>
+			  		</button>
+			  	<div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav m-auto">
+				      <li class="nav-item active top_nav">
+				        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item top_nav">
+				        <a class="nav-link" href="about.html">About</a>
+				      </li>
+				      	<img src="./assets/images/logo.png" class="img-fluid mini_logo">
+				      <li class="nav-item top_nav">
+				        <a class="nav-link" href="portfolio.html">Portfolio</a>
+				      </li>
+				      <li class="nav-item top_nav">
+				        <a class="nav-link disabled" href="contact.html">Contact</a>
+				      </li>
+				    </ul>
+			  	</div>
+			</nav>
+		</div>
+		<div class="row main_content">
+
+			<div class="col-md-2">
+			</div>
+
+			<div class="col-md-5">
+				<div class= "card">
+					<h2 class="text-center">Portfolio</h2>
+					<div class="mx-auto" id="portfolio_thumbnails">
+						<a href="#" target="_blank">
+							<div class="project_photos" id="box_1">
+								<p class="project_spans">My First Site</p>
+							</div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="project_photos" id="box_2">
+								<p class="project_spans">RPG Game</p>
+							</div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="project_photos" id="box_3">
+								<p class="project_spans">Countdown Timer</p>
+							</div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="project_photos" id="box_4">
+								<p class="project_spans">Debugging</p>
+							</div>
+						</a>
+						<a href="#" target="_blank">
+							<div class="project_photos" id="box_5">
+								<p class="project_spans">Mobile Apps</p>
+							</div>
+						</a>
+						<a href="#" target="_blank">			
+							<div class="project_photos" id="box_6">
+								<p class="project_spans">Group Projects</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-1 spacer">
+			</div>
+
+			<div class="col-md-3">
+				<div class="card">
+					<div class="card-header contact_header text-center">
+						Contact
+					</div>
+						<ul class="nav justify-content-center contact">
+							<li class="nav-item">
+								<a href="https://stackoverflow.com/users/8033800/benjamin-d" target=
+			"_blank"><img class="follow" src="./assets/images/stackoverflow.png" alt="Benjamin Dally Stackoverflow Logo" title="Check out my Stackoverflow Page"></a>
+							</li>
+							<li class="nav-item">
+								<a href="https://github.com/benjamindally" target="_blank"><img class="follow" src="./assets/images/github.png" alt="Benjamin Dally Github Logo" title="Connect with me on Github"></a>
+							</li>
+							<li class="nav-item">
+								<a href="https://www.linkedin.com/in/dallybenjamin/" target="_blank"><img class="follow" src="./assets/images/linkedin.png" alt="Benjamin Dally Linkedin Logo" title="Follow me on Linkedin"></a>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div class="col-md-1">
+			</div>
+		
+	</div>
+
+	<footer  class="footer ">
+		<div class="container-fluid footer_style text-center">
+
+			<a id="footer_link" href="contact.html" target="_self">
+				<p>&copy; Benjamin Dally 2016</p></a>
+		</div>
+	</footer>
+</body>
+</html>
